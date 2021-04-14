@@ -30,17 +30,35 @@ public class Main {
            }
                                   
            else if(sekil_turu.equals("2"){
-               System.out.println("Üçgenin kenarı: );
-               ;                   
-                              
-
-                                  
+               System.out.println("Kenar 1: " );
+               int kenar1= scanner.nextInt();
+               System.out.println("Kenar 2: " );
+               int kenar2= scanner.nextInt();
+               System.out.println("Kenar 3: " );
+               int kenar3= scanner.nextInt();
                
+               scanner.nextLine();
+           
+                sekil= new ucgen("Üçgen1", kenar1, kenar2, kenar3);
                
-                sekil= new ucgen("Üçgen1", kenar);
                 sekil.alanHesapla();
            }                   
+                  
+            else if(sekil_turu.equals("3"){
+               System.out.println("Dairenin yarıcapı:  " );       
+               int yarıcap= scanner.nextInt();
+               scanner.nextLİne();
+                
+               sekil= new Daire("Daire1" , yaricap);
                    
+               sekil.alanHesapla();  
+            }      
+                    
+            else {
+                System.out.println("Geçersiz işlem");
+            }
+                    
+                    
         }
     }
 }
