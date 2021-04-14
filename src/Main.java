@@ -13,19 +13,21 @@ public class Main {
         
         while(true){
             System.out.println(islemler);
-            System.out.println("Hangi şeklin alanını hesaplamak istiyorsunuz);
+            System.out.println("Hangi şeklin alanını hesaplamak istiyorsunuz");
             String sekil_turu= scanner.nextLine();
-                               
+            Sekil sekil = null;
+            
             if(sekil_turu.equals("q")){
-                System.out.println("Çıkış yapılıyor...);
+                System.out.println("Çıkış yapılıyor...");
                 break;
           }
            else if(sekil_turu.equals("1"){
-               System.out.println("Karenin kenarı: );
+               System.out.println("Karenin kenarı: ");
                int kenar= scanner.nextInt();  
                scanner.nextLine();                   
                
                 sekil= new Kare("Kare1", kenar);
+               
                 sekil.alanHesapla();
            }
                                   
@@ -39,7 +41,7 @@ public class Main {
                
                scanner.nextLine();
            
-                sekil= new ucgen("Üçgen1", kenar1, kenar2, kenar3);
+                sekil= new Ucgen("Üçgen1", kenar1, kenar2, kenar3);
                
                 sekil.alanHesapla();
            }                   
