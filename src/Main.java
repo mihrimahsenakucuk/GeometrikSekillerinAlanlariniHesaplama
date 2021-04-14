@@ -49,7 +49,7 @@ public class Main {
             else if(sekil_turu.equals("3")){
                System.out.println("Dairenin yarıcapı:  " );       
                int yaricap= scanner.nextInt();
-               scanner.nextLİne();
+               scanner.nextLine();
                 
                sekil= new Daire("Daire1" , yaricap);
                    
