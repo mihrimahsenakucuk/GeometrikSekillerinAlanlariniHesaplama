@@ -21,7 +21,7 @@ public class Main {
                 System.out.println("Çıkış yapılıyor...");
                 break;
           }
-           else if(sekil_turu.equals("1"){
+           else if(sekil_turu.equals("1")){
                System.out.println("Karenin kenarı: ");
                int kenar= scanner.nextInt();  
                scanner.nextLine();                   
@@ -31,7 +31,7 @@ public class Main {
                 sekil.alanHesapla();
            }
                                   
-           else if(sekil_turu.equals("2"){
+           else if(sekil_turu.equals("2")){
                System.out.println("Kenar 1: " );
                int kenar1= scanner.nextInt();
                System.out.println("Kenar 2: " );
@@ -46,9 +46,9 @@ public class Main {
                 sekil.alanHesapla();
            }                   
                   
-            else if(sekil_turu.equals("3"){
+            else if(sekil_turu.equals("3")){
                System.out.println("Dairenin yarıcapı:  " );       
-               int yarıcap= scanner.nextInt();
+               int yaricap= scanner.nextInt();
                scanner.nextLİne();
                 
                sekil= new Daire("Daire1" , yaricap);
